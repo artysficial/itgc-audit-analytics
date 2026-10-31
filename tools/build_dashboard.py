@@ -73,11 +73,20 @@ def main() -> None:
 
     critical = [r for r in findings if r.risk == "Critical"]
     verdict = (f"{len(critical)} critical and {sum(1 for r in findings if r.risk == 'High')} high findings: report to the Audit Committee", "bad") if critical else ("No critical findings", "ok")
+    takeaways = [
+        f"{conclusions['Effective']} of {len(results)} IT controls work as designed; {conclusions['Partially effective']} are partially effective and {conclusions['Ineffective']} are ineffective.",
+        f"All {population:,} records in the audit period were tested (full population, no sampling), so the exceptions below are complete, not estimates.",
+    ]
+    if findings:
+        worst = findings[0]
+        takeaways.append(f"Most serious: {worst.id} {worst.name} ({worst.risk.lower()} risk, {len(worst.exceptions)} exception{'s' if len(worst.exceptions) != 1 else ''}). {worst.recommendation}")
+        dues = [RESPONSES.get(r.id, ("", "2026-12-31"))[1] for r in findings]
+        takeaways.append(f"Management has agreed {len(findings)} actions with named owners, all due by {max(dues)}.")
     rk.write(str(ROOT / "site" / "index.html"), rk.page(
         title="ITGC Audit Analytics",
         eyebrow="IT Auditor · IT general controls",
         summary="Full-population testing of IT general controls over SAP S/4HANA, the HSM API console and Active Directory: access, segregation of duties, change management and HSM key ceremonies.",
-        body=body, repo="itgc-audit-analytics", verdict=verdict,
+        body=body, repo="itgc-audit-analytics", verdict=verdict, takeaways=takeaways,
     ))
     print(f"dashboard built: {len(findings)} findings")
 
