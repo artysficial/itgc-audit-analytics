@@ -1,0 +1,70 @@
+system,user_id,employee_id,roles,last_login,status
+SAP S/4HANA,adi.pratama,E1000,Z_AP_INVOICE_ENTRY,2026-10-14,Enabled
+SAP S/4HANA,bayu.nugroho,E1001,Z_AP_INVOICE_RELEASE,2026-10-10,Enabled
+SAP S/4HANA,citra.hidayat,E1002,Z_FI_PAYMENT_RUN,2026-10-18,Enabled
+SAP S/4HANA,dewi.santoso,E1003,Z_FI_DISPLAY,2026-10-06,Enabled
+SAP S/4HANA,eka.rahayu,E1004,Z_MM_PO_CREATE,2026-10-27,Enabled
+SAP S/4HANA,fajar.kusuma,E1005,Z_MM_PO_RELEASE;Z_MM_VENDOR_MAINTAIN,2026-01-30,Enabled
+Active Directory,gita.wijaya,E1006,Domain Admins,2026-10-24,Enabled
+HSM API Console,gita.wijaya,E1006,hsm-operator,2026-10-12,Enabled
+SAP S/4HANA,hadi.siregar,E1007,Z_BASIS_DB,2026-10-09,Enabled
+Active Directory,indah.saputra,E1008,Helpdesk Password Reset,2026-10-29,Enabled
+SAP S/4HANA,joko.lestari,E1009,Z_DEV_ABAP,2026-10-20,Enabled
+SAP S/4HANA,kartika.pratama,E1010,Z_DEV_ABAP;Z_TRANSPORT_RELEASE,2026-10-26,Enabled
+HSM API Console,lukas.nugroho,E1011,key-custodian-a,2026-10-29,Enabled
+HSM API Console,maya.hidayat,E1012,audit-reader,2026-10-20,Enabled
+Active Directory,maya.hidayat,E1012,Security Auditors,2026-10-21,Enabled
+SAP S/4HANA,nanda.santoso,E1013,Z_AP_INVOICE_ENTRY,2026-10-27,Enabled
+SAP S/4HANA,oki.rahayu,E1014,Z_AP_INVOICE_RELEASE,2026-10-16,Enabled
+SAP S/4HANA,putri.kusuma,E1015,Z_FI_PAYMENT_RUN,2026-10-08,Enabled
+SAP S/4HANA,rizki.wijaya,E1016,Z_FI_DISPLAY,2026-10-10,Enabled
+SAP S/4HANA,sari.siregar,E1017,Z_MM_PO_CREATE,2026-10-26,Enabled
+Active Directory,wulan.lestari,E1019,Domain Admins,2026-10-10,Enabled
+HSM API Console,wulan.lestari,E1019,hsm-operator,2026-10-11,Enabled
+SAP S/4HANA,yudi.pratama,E1020,Z_BASIS_DB,2026-10-23,Enabled
+Active Directory,zahra.nugroho,E1021,Helpdesk Password Reset,2026-10-15,Enabled
+SAP S/4HANA,adi.hidayat,E1022,Z_DEV_ABAP,2026-10-12,Enabled
+SAP S/4HANA,bayu.santoso,E1023,Z_DEV_ABAP;Z_TRANSPORT_RELEASE,2026-10-15,Enabled
+HSM API Console,citra.rahayu,E1024,key-custodian-a;key-custodian-b,2026-10-29,Enabled
+HSM API Console,dewi.kusuma,E1025,audit-reader,2026-10-08,Enabled
+Active Directory,dewi.kusuma,E1025,Security Auditors,2026-10-11,Enabled
+SAP S/4HANA,eka.wijaya,E1026,Z_AP_INVOICE_ENTRY,2026-10-20,Enabled
+SAP S/4HANA,fajar.siregar,E1027,Z_AP_INVOICE_RELEASE,2026-04-23,Enabled
+SAP S/4HANA,gita.saputra,E1028,Z_FI_PAYMENT_RUN,2026-10-13,Enabled
+SAP S/4HANA,hadi.lestari,E1029,Z_FI_DISPLAY,2026-10-20,Enabled
+SAP S/4HANA,indah.pratama,E1030,Z_MM_PO_CREATE,2026-10-26,Enabled
+SAP S/4HANA,joko.nugroho,E1031,Z_MM_PO_RELEASE;Z_MM_VENDOR_MAINTAIN;Z_FI_PAYMENT_RUN,2026-10-13,Enabled
+Active Directory,kartika.hidayat,E1032,Domain Admins,2026-10-27,Enabled
+HSM API Console,kartika.hidayat,E1032,hsm-operator,2026-10-19,Enabled
+SAP S/4HANA,lukas.santoso,E1033,Z_BASIS_DB,2026-02-15,Enabled
+Active Directory,maya.rahayu,E1034,Helpdesk Password Reset,2026-10-16,Enabled
+SAP S/4HANA,nanda.kusuma,E1035,Z_DEV_ABAP,2026-10-07,Enabled
+SAP S/4HANA,oki.wijaya,E1036,Z_DEV_ABAP;Z_TRANSPORT_RELEASE,2026-10-22,Enabled
+HSM API Console,putri.siregar,E1037,key-custodian-a,2026-10-27,Enabled
+HSM API Console,rizki.saputra,E1038,audit-reader,2026-10-07,Enabled
+Active Directory,rizki.saputra,E1038,Security Auditors,2026-10-17,Enabled
+SAP S/4HANA,sari.lestari,E1039,Z_AP_INVOICE_ENTRY,2026-10-16,Enabled
+SAP S/4HANA,tono.pratama,E1040,Z_AP_INVOICE_RELEASE,2026-10-18,Enabled
+SAP S/4HANA,yudi.hidayat,E1042,Z_FI_DISPLAY,2026-10-11,Enabled
+SAP S/4HANA,zahra.santoso,E1043,Z_MM_PO_CREATE,2026-10-19,Enabled
+SAP S/4HANA,adi.rahayu,E1044,Z_MM_PO_RELEASE;Z_MM_VENDOR_MAINTAIN,2026-10-14,Enabled
+Active Directory,bayu.kusuma,E1045,Domain Admins,2026-10-18,Enabled
+HSM API Console,bayu.kusuma,E1045,hsm-operator,2026-10-16,Enabled
+SAP S/4HANA,citra.wijaya,E1046,Z_BASIS_DB,2026-10-11,Enabled
+Active Directory,dewi.siregar,E1047,Helpdesk Password Reset,2026-10-28,Enabled
+SAP S/4HANA,eka.saputra,E1048,Z_DEV_ABAP,2026-10-13,Enabled
+SAP S/4HANA,fajar.lestari,E1049,Z_DEV_ABAP;Z_TRANSPORT_RELEASE,2026-10-15,Enabled
+HSM API Console,gita.pratama,E1050,key-custodian-a,2026-10-20,Enabled
+HSM API Console,hadi.nugroho,E1051,audit-reader,2026-10-15,Enabled
+Active Directory,hadi.nugroho,E1051,Security Auditors,2026-10-13,Enabled
+SAP S/4HANA,indah.hidayat,E1052,Z_AP_INVOICE_ENTRY,2026-03-11,Enabled
+SAP S/4HANA,joko.santoso,E1053,Z_AP_INVOICE_RELEASE,2026-10-27,Enabled
+SAP S/4HANA,kartika.rahayu,E1054,Z_FI_PAYMENT_RUN,2026-10-17,Enabled
+SAP S/4HANA,lukas.kusuma,E1055,Z_FI_DISPLAY,2026-10-07,Enabled
+SAP S/4HANA,maya.wijaya,E1056,Z_MM_PO_CREATE,2026-10-22,Enabled
+SAP S/4HANA,nanda.siregar,E1057,Z_MM_PO_RELEASE;Z_MM_VENDOR_MAINTAIN,2026-10-20,Enabled
+Active Directory,oki.saputra,E1058,Domain Admins,2026-06-03,Enabled
+HSM API Console,oki.saputra,E1058,hsm-operator,2026-05-10,Enabled
+SAP S/4HANA,putri.lestari,E1059,Z_BASIS_DB,2026-10-21,Enabled
+SAP S/4HANA,sap.support,,Z_SUPPORT_DISPLAY,2026-10-28,Enabled
+Active Directory,svc.backup,,Backup Operators,2026-10-31,Enabled

@@ -1,0 +1,41 @@
+{
+  "standard": {
+    "min_length": 12,
+    "max_age_days": 90,
+    "lockout_attempts": 5,
+    "history": 12,
+    "mfa": true
+  },
+  "systems": {
+    "Active Directory": {
+      "min_length": 14,
+      "max_age_days": 90,
+      "lockout_attempts": 5,
+      "history": 24,
+      "mfa": true
+    },
+    "SAP S/4HANA": {
+      "min_length": 12,
+      "max_age_days": 90,
+      "lockout_attempts": 5,
+      "history": 12,
+      "mfa": true
+    },
+    "HSM API Console": {
+      "min_length": 12,
+      "max_age_days": 180,
+      "lockout_attempts": 10,
+      "history": 12,
+      "mfa": true
+    }
+  },
+  "approved_non_personal": [
+    "svc.backup"
+  ],
+  "privileged_roles": [
+    "SAP_ALL",
+    "Domain Admins",
+    "Z_BASIS_DB",
+    "hsm-operator"
+  ]
+}
